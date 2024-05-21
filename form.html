@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <!--This part is box for information-->
+        <label>
+            Username
+            <input name="username" type= "text" placeholder="John doe" />
+        </label>
+        <label>
+            Password
+            <input name="password" type="password" placeholder="your password"/>
+        </label>
+        <label>
+            Email
+            <input name="email "type="email" placeholder="example@gmail.com"/>
+        </label>
+
+        <!--This part is checkbox ติ๊กถูก-->
+        <h2>Age</h2>
+        <label>
+            <input name="age" value="19" type="checkbox" checked/>
+            19
+        </label>
+        
+        <label>
+            <input name="age" value="20" type="checkbox" />
+            20
+        </label>
+
+        <label>
+            <input name="age" value="21" type="checkbox"/>
+            21
+        </label>
+
+        <!--This part is checkbox but can choose only 1-->
+        <h2>Yes or No</h2>
+        <label>
+            <input name="YesorNo" value="Yes" type="radio"/>
+            Yes
+        </label>
+
+        <label>
+            <input name="YesorNox" value="maybe" type="radio"/>
+            Maybe
+        </label>
+
+        <label>
+            <input name="YesorNo" value="No" type="radio"/>
+            No
+        </label>
+
+        <!--This part is dropdown box can choose the choice-->
+        <h2>Place</h2>
+        <select name="Place">
+            <optgroup label="Country">
+                <option value="MYM">Myanmar</option>
+                <option value="IDN">India</option>
+            </optgroup>
+            <optgroup label="Province in Thailand">
+                <option selected value="BKK">Bangkok</option>
+                <option value="NKP">Nakorn Pratom</option>
+                <option value="CM">Chiang Mai</option>
+            </optgroup>
+        </select>
+
+        <!--This part is comment area-->
+        <label>
+            comment:
+            <textarea name="comment">
+
+            </textarea>
+        </label>
+
+        <!--This part is checkbox but with requirement-->
+        <label>
+            <input type="checkbox" required/>
+            Term and conditions
+        </label>
+
+        <!--This part is summit button-->
+        <button type="summit">Sent form</button>
+    </form>
+</body>
+</html>
