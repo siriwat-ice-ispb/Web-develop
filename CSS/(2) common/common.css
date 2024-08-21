@@ -1,0 +1,45 @@
+/* All elements will be correct size */
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    width: 180px;
+    height: 100px;
+    color: purple;
+    /* background-color: blue; */
+
+    /* for background picture */
+    background-image: url('https://ichef.bbci.co.uk/news/1536/cpsprodpb/15951/production/_117310488_16.jpg.webp');
+    background-size: cover;
+
+    /* border */
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+
+    /* margin */
+    margin-top: 10px;
+    margin-left: 20px;
+
+    /* padding */
+    padding-top: 20px;
+    padding-left: 20px;
+
+    /* box-shadow: use google to make it*/
+}
+
+#block1, #block2, #block3{
+    display: inline; 
+    /* same property as span */
+}
+
+#span1, #span2{
+    display: block; 
+    /* same property as div */
+}
+
+label{
+    display: block;
+}
