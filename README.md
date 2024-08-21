@@ -1,2 +1,2 @@
-# Web-develop
+# Web-developing
 Web developing journey
