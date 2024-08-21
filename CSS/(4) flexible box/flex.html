@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- STYLE can split into CSS file--> 
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .cardcontainer{
+            display: flex; /* change from vertical to horizontal */
+            justify-content: space-between; /* add space between div */
+            align-items: flex-end; /* Look for more command in F12 of the website */
+        }
+        
+        .thumbnail{
+            height: 100px; /* declare height of the thumbnail to be 100px */
+        }
+
+        .card{
+            border: 1px solid red; /* border for each card */
+        }
+
+        .center{ /* adjust 3 bottom lines to see the change in the example */
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .minicenter{ /* adjust 3 bottom lines to see the change in the example */
+            width: 100px;
+            height: 100px;
+            border: 1px solid blue;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <h2>Breaking news!</h2>
+
+        <section class="cardcontainer">
+          <div class="card">
+            <img class="thumbnail" src="https://www.shutterstock.com/image-photo/scenic-image-iceland-incredible-nature-600nw-1453557041.jpg" />
+            <h3>Breaking news 1!</h3>
+            <p>Very important news Must read</p>
+          </div>
+
+          <div class="card">
+            <img class="thumbnail" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/15951/production/_117310488_16.jpg.webp" />
+            <h3>Breaking news 2!</h3>
+            <p>Very important news Must read</p>
+          </div>
+
+          <div class="card">
+            <img class="thumbnail" src="https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG" />
+            <h3>Breaking news 3!</h3>
+            <p>Very important news Must read</p>
+          </div>   
+          
+        </section>
+        
+        <div class="center">
+            <div class="minicenter">5555</div>
+        </div>
+
+    </section>
+</body>
+</html>
