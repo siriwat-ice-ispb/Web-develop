@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.main > *{
+    border: 1px solid red;
+}
+
+header{
+    grid-column: 1 / 4;
+}
+
+.left1{
+    grid-row: 2 / 4;
+}
+
+.right1{
+    grid-column: 2 / 4;
+}
+
+.left2{
+    grid-column: 2 / 3;
+}
+
+.right2{
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+}
+
+footer{
+    grid-column: 1 / 3;
+}
