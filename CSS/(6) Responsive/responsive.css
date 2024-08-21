@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{ /* No boundary line */
+    margin: 0;
+    padding: 0;
+}
+
+/*.mainbox{
+    background: grey;
+    width: 100vw; 
+    height: 100vh; 
+}
+/* view width */
+/* view height */
+/* result is fullscreen */
+
+/* @media (max-width: 1000px){
+    .mainbox{
+        background: yellow;
+    }
+} */
+
+/* responsive for phone */
+/* em = จำนวนตัว m ที่ใช้เว้นระยะ*/
+/* default size */
+.content{
+    padding: 2em;
+}
+
+/* Tablet */
+@media (min-width: 800px) and (max-width: 1200px){
+    .content{
+        padding-left: 20em;
+        padding-right: 20em;
+    }
+}
+
+/* bigger than tablet */
+@media (min-width: 1200px){
+    .content{
+        padding-left: 25em;
+        padding-right: 25em;
+    }
+}
