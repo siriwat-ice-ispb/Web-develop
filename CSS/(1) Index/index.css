@@ -1,0 +1,43 @@
+/* ID use # */
+/* for ID that name "div1" only เอาcursor ไปจ่อไว้จะขึ้น*/
+#div1{
+    background-color: red;
+}
+
+/* for ID that name "div2" only */
+#div2{
+    background-color: blue;
+}
+
+
+/* CLASS use . */
+/* for CLASS that name "text1" only */
+.text1{
+    color: green;
+    font-size: 20px;
+}
+
+/* for CLASS that name "text2" only */
+.text2{
+    color: green;
+}
+
+
+/* select div only */
+div{
+    
+    color: rgb(255, 0, 195);
+}
+
+
+/* select everything Ex. <p> or <h1> */
+* {
+    
+    color : rgb(255, 225, 0);
+}
+
+
+/* for P inside DIV only*/
+div p{
+    color: brown;
+}
